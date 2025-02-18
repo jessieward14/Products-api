@@ -13,4 +13,8 @@ insertProduct(title:string,desc:string,price:number) {
     this.products.push(newProduct);
     return prodId;
 }
+
+getProducts(
+    return [this.products]
+)
 }
