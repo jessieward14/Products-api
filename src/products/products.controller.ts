@@ -5,7 +5,7 @@ import { ProductsService } from './products.service';
 export class ProductsController {
     constructor(private readonly productsService: ProductsService) { }
 
-    @Post()
+    @Post() // update computer
     addProduct(
         @Body('title') prodTitle: string,
         @Body('description') prodDesc: string,
